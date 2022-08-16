@@ -1,0 +1,153 @@
+body{
+  text-align:center;
+  font-family:Candara,sans-serif;
+  background-color:#e4d6ca;
+  color:#2d192e;
+  margin:0 0 30px 0;
+}
+
+h1{
+  font-weight:500;
+  font-size:69px;
+  font-style:bold;
+}
+
+h2{
+  color:#AC1189;
+  font-size: 40px;
+}
+
+h3{
+  font-size:28px;
+  font-style:bold;
+  color: #5c45a8;
+}
+
+h4{
+  color:#E03C5F;
+  font-size:24px;
+}
+
+section{
+  width:60%; 
+  margin: 0 auto;
+}
+
+section section{
+  width:100%;
+}
+
+p{
+  line-height:1.5;
+  font-size:20px;
+  text-align:justify;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+img{
+  width:45%;
+  }
+
+.img-left {
+  margin-left: 0;
+  margin-right: 15px;
+  border: solid #d6a4a1;
+  border-radius:2px;
+}
+
+.img-right {
+  margin-left: 15px;
+  margin-right: 0;
+  border: solid #d6a4a1;
+  border-radius:2px;
+}
+
+
+.cabecalho{
+  width:60%;
+  height:auto;
+  max-width:60%;
+}
+
+.supermodel{
+  width:40%;
+}
+
+.filmes{
+  vertical-align: top;
+  width:51%;
+}
+.punk{
+  display: inline-block;
+}
+
+.premios{
+  width: 69%;
+}
+
+ul{
+  list-style-type:none;
+  line-height:2;
+  padding-left:0;
+  }
+
+a{
+  text-decoration:none;
+  color:#771480;
+  font-weight:700;
+  font-size:17px;
+}
+
+.principal{
+  background:#ecf542;
+  height:40px;
+  max-width:60%;
+  margin: 0 auto;
+}
+
+.principal a{
+  color:#2a0074;
+  text-decoration:none;
+  font-weight:bold;
+  font-family:Candara,sans-serif;
+}
+
+.principal li{
+  display: inline-block;
+  line-height:2.5;
+  margin: 0 89px;
+  text-shadow: 1px 1px 1px #389acf;
+}
+
+.titulo-final{
+  color:#2a0074;
+}
+
+button{
+  background-color:#ecf542;
+  border:1px solid transparent;
+  padding:2px 20px;
+  border-radius:3px;  
+}
+
+#botaoEnviar:hover {
+  box-shadow: 3px 3px 2px #2a0074;
+  transition: 0.30s;
+}
+
+#botaoEnviar:active {
+  transform: scale(0.92);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+a:hover {
+  color: #389acf;
+}
+
+input:focus {
+  background-color:#957099;
+}
